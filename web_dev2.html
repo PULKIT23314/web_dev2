@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pulkit kohli | Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+    header {
+      background-color: #0078d7;
+      color: white;
+      text-align: center;
+      padding: 40px 0 20px;
+    }
+    header h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 18px;
+      margin-top: 0;
+    }
+    .profile-photo {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+    .profile-photo img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #0078d7;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+    section {
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #0078d7;
+    }
+    .about, .skills, .projects, .contact, .contact-form {
+      background-color: white;
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    table, th, td {
+      border: 1px solid #0078d7;
+    }
+    th, td {
+      padding: 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #0078d7;
+      color: white;
+    }
+    /* Form styling */
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 15px;
+    }
+    label {
+      font-weight: bold;
+    }
+    input[type="text"],
+    input[type="number"],
+    input[type="tel"] {
+      padding: 10px;
+      border: 1px solid #0078d7;
+      border-radius: 6px;
+      font-size: 16px;
+      width: 100%;
+    }
+    input[type="submit"] {
+      background-color: #0078d7;
+      color: white;
+      border: none;
+      padding: 12px;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    input[type="submit"]:hover {
+      background-color: #005fa3;
+    }
+    footer {
+      text-align: center;
+      background-color: #0078d7;
+      color: white;
+      padding: 15px 0;
+      margin-top: 20px;
+    }
+
+    /* Scroll buttons */
+    .scroll-buttons {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 1000;
+    }
+    .scroll-btn {
+      background-color: #0078d7;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 45px;
+      height: 45px;
+      font-size: 22px;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+      transition: all 0.3s ease;
+    }
+    .scroll-btn:hover {
+      background-color: #005fa3;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pulkit kohli</h1>
+    <p>Web Developer | Programmer | Designer</p>
+  </header>
+
+  <div class="profile-photo">
+    <img src="AIUA4582.JPG" alt="pulkit kohli Photo">
+  </div>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      Hi! I'm PULKIT KOHLI, a passionate web developer and programmer. I enjoy creating user-friendly websites and solving real-world problems with technology.
+    </p>
+  </section>
+
+  <section class="skills">
+    <h2>Skills</h2>
+    <table>
+      <tr>
+        <th>Skill Category</th>
+        <th>Technologies / Tools</th>
+      </tr>
+      <tr>
+        <td>Frontend Development</td>
+        <td>HTML, CSS</td>
+      </tr>
+      <tr>
+        <td>Programming Languages</td>
+        <td>Python</td>
+      </tr>
+      <tr>
+        <td>Design & Layout</td>
+        <td>Responsive Web Design</td>
+      </tr>
+      <tr>
+        <td>Version Control</td>
+        <td>Git, GitHub</td>
+      </tr>
+    </table>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>Daily Calorie Tracker (Python CLI)</li>
+      <li>SecureGen – Cybersecurity Dashboard</li>
+      <li>Climate Prediction Model (Deep Learning)</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <table>
+      <tr>
+        <th>Type</th>
+        <th>Details</th>
+      </tr>
+      
+      <tr>
+        <td>Phone</td>
+        <td>+91 7528017726 </td>
+      </tr>
+      <tr>
+        <td>LinkedIn</td>
+        <td><a href="https://www.linkedin.com/in/pulkit-kohli-838b1a341/" target="_blank">linkedin.com/in/pulkitkohli</a></td>
+      </tr>
+      <tr>
+        <td>GitHub</td>
+        <td><a href="https://github.com/PULKIT23314" target="_blank">github.com/PULKIT23314</a></td>
+      </tr>
+    </table>
+  </section>
+
+  <section class="contact-form">
+    <h2>Get in Touch</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" placeholder="Enter your age" required>
+
+      <label for="number">Phone Number:</label>
+      <input type="tel" id="number" name="number" placeholder="Enter your phone number" required>
+
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 pulkit kohli. All rights reserved.</p>
+  </footer>
+
+  <!-- Scroll Buttons -->
+  <div class="scroll-buttons">
+    <button class="scroll-btn" onclick="scrollToTop()">↑</button>
+    <button class="scroll-btn" onclick="scrollToBottom()">↓</button>
+  </div>
+
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+    function scrollToBottom() {
+      window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
